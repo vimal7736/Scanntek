@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  color: white;
+  scrollbar-width: thin; 
+  scrollbar-color: orange black;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: orange; 
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  width: 50px; 
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links h3 {
+  margin: 0;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: -19px;
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: white;
+}
+

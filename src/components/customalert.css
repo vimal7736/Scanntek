@@ -1,0 +1,60 @@
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  color: #f7f7f7;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  border: 2px solid #c95e12;
+  background-blend-mode: color-dodge;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(223, 57, 57, 0.2);
+}
+.custom-alert button{
+  margin-top: 10px;
+  color: aliceblue;
+  background-color: #333;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+.custom-alert button :hover{
+  margin-top: 10px;
+  background-color: rgb(222, 98, 22);
+  color: #f7f7f7;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.custom-alert-content {
+  font-size: 18px;
+  color: #f7f7f7;
+
+}
+
+.custom-alert-content pre {
+  white-space: pre-wrap;
+
+}
+.form-values {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333; 
+}
+
+.form-values p {
+  margin: 5px 0;
+}
+
+.custom-alert.visible {
+  transform: rotateY(0deg);
+}
+
+.custom-alert.hidden {
+  transform: rotateY(90deg);
+  display: none;
+}

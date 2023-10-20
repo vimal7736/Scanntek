@@ -1,0 +1,161 @@
+
+.footer-section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    margin-left: auto;
+    padding-left: 10px;
+    gap: 10px;
+  }
+  
+  .footer-products ul{
+    margin-left: -37px;
+    
+  }
+  li{
+    list-style: none;
+    margin-top: 10px;
+  }
+  .footer-hardware ul{
+    margin-left: -37px;
+  }
+
+  .footer-about ul{
+    margin-left: -37px;
+  }
+  .footer-container {
+    max-width: 1200px;
+    display: contents;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-menu {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-menu .footer-about,
+  .footer-menu .footer-products,
+  .footer-menu .footer-hardware,
+  .footer-menu .footer-connect,
+  .footer-menu .footer-more {
+    flex: 1;
+    margin-right: 20px;
+  }
+  li{
+    font-size: 18px;
+  }
+  
+  .footer-headings p {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .footer-feedback{
+    height: 111px;
+    width: 221px;
+  }
+  .footer-feedback h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  
+  .footer-connect ul,
+  .footer-more ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-connect ul li,
+  .footer-more ul li {
+    margin-bottom: 10px;
+  }
+  
+  .feedback-head {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .feedback-expressions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .footer-logo {
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 50px; 
+    margin-right: 10px;
+  }
+  
+  .footer-address p {
+    
+    font-size: 15px;
+    font-weight: 400;
+  }
+ 
+  .footer-addresss p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+  }
+ 
+  
+  .footer-address span {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .footer-privacy {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+.footer-section {
+    background-color: rgb(2, 2, 2); 
+    color: rgb(247, 238, 238); 
+    padding: 20px 0;
+  }
+  
+ 
+  .footer-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content {
+    width: 50%; 
+  }
+  
+  .footer-section {
+    width: 100%;
+    height: 300px;
+  }
+  .footer-end{
+    display: flex;
+    justify-content: space-between;
+  }
+.up{
+    margin-top: -15px;
+}
+.up p{
+font-size: 10px;
+margin-left: 20px;}
+.flexed{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 20px;
+    margin-top: 40px;
+}
+.padding{
+    padding: 20px;
+}

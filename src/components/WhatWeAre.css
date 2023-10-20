@@ -1,0 +1,43 @@
+.submenu-slide {
+    display: flex;
+    padding: 30px;
+    height: 428px;
+  }
+  .button-container button {
+    display:flex;
+    width: 345px;
+    height: 70px;
+    align-items: center;
+    margin: 25px;
+    border: none;
+    background-color: black;
+    color: azure;
+  cursor: pointer;
+   
+  }
+  .button-container button text {
+     text-align: center;
+  
+   
+  }
+  .button-container{
+      text-align: start;
+      /* margin-top: -75px; */
+  
+  }
+  .button-container li{
+    width: 892px;
+    height: 47px;
+    gap: 10px
+    
+  
+  }
+  .left-slide {
+    width: 441px;
+    width: 428px;
+  }
+  .right-child{
+  padding: 45px;
+  }
+  
+  

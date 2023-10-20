@@ -1,0 +1,75 @@
+.services-container {
+  padding: 40px;
+  height: auto;
+  max-height: auto; 
+}
+
+
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px; 
+}
+.ourservice {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 600;
+  height: Fixed 120px;
+  padding: 0px, 532px, 0px, 532px;
+  gap: 10px;
+}
+
+.service-card {
+  border: 1px solid #ccc;
+  width: fit-content;
+  background-color: aliceblue;
+  color: black;
+  padding: 40px;
+  margin: 5px;
+  width: calc(33.33% - 10px); 
+  text-align: center;
+  height: 325px;
+  border-radius: 50px;
+  transition: background-color 0.3s, transform 0.3s; 
+}
+.service-card h1{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+
+}
+
+.service-card:hover {
+  background-color: rgb(225, 124, 52); 
+  transform: scale(1.1);
+}
+
+.service-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.service-card:last-child {
+  margin-right: 0;
+}
+.service-innercard2{
+  width: auto;
+height: 114px;
+padding: 10px;
+gap: 10px;
+margin-top: 100px;
+margin-left: 100px;
+
+
+}
+
+.service-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+}
+
